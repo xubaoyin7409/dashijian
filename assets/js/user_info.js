@@ -20,7 +20,7 @@ $(function () {
                     return layer.msg('获取用户信息失败');
                 }
                 // layer.msg('获取信息成功');
-                console.log(res);
+                // console.log(res);
                 // 调用form.val()快速为表单赋值
                 form.val('formUserInfo', res.data)
             }
